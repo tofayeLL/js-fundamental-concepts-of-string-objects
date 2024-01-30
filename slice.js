@@ -19,6 +19,7 @@ const address = 'andor killa bandor bon';
 /* ---join use kore amra kono ekta array er element gule eksathe korte pari--- */
 const realFriends = ['rahim', 'karim', 'fahim', 'mahim', 'sahim'];
 console.log(realFriends.join());//kono kisu na dile comma use korbe (,).
+console.log(realFriends.join('')); //emon dile amnitey join dibe
 console.log(realFriends.join('|'));
 console.log(realFriends.join('-'));
 
