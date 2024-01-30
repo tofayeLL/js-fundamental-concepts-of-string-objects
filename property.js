@@ -42,3 +42,12 @@ const person = {
 
 // must have to use bracket notation
 console.log(person['fav places']);
+
+
+
+// amra chaile value ke kono notun variable a rakhte pari and sey notun variable ke dhore valu er man update or access korte pari
+
+const propName = 'profession';
+person[propName] = 'devols';
+console.log(person);
+
