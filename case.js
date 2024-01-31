@@ -1,5 +1,5 @@
-   
-   const school = 'RAJ UK Uttara Model School';
+
+const school = 'RAJ UK Uttara Model School';
 //    console.log(school);
 //    console.log(school.toLowerCase());
 //    console.log(school.toUpperCase());
@@ -23,9 +23,9 @@ else{
 
 const drink = 'water';
 const liquid = ' water ';
-if(drink.trim() === liquid.trim()){
+if (drink.trim() === liquid.trim()) {
     console.log('panir opor nam jibon');
 }
-else{
+else {
     console.log('somudre onk pani ase but khaite pari na');
 }
