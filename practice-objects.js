@@ -43,16 +43,16 @@ console.log(access); */
 
 /* ---practice task four--- */
 
-/* let student = {
+let student = {
     name: 'Ariana Grande',
     age: 21,
     city: 'Gaibandha',
     isStudent: true
-}; */
+};
 
 //count how many property in object have 
-/* let countProperties = Object.keys(student).length;
-console.log(countProperties); */
+let countProperties = Object.keys(student).length;
+console.log(countProperties);
 
 // count how many values have in a object
 /* let countValues = Object.values(student).length;
@@ -63,7 +63,7 @@ console.log(countValues); */
 
 /* ---practice task five--- */
 
-let myObject = {
+/* let myObject = {
 
     name: 'John Doe',
     age: 25,
@@ -72,21 +72,21 @@ let myObject = {
     };
 for(let prop in myObject){
 
-    console.log('key:' + ' ' + prop + ' ' + '|' + ' ' +'type:' + ' ' +typeof(prop));
+    console.log('key:' + ' ' + prop + ' ' + '|' + ' ' +'type:' + ' ' +typeof(prop)); */
 
     // another way by using concat()
-    let first =  ('key:' + ' ' + prop);
+  /*   let first =  ('key:' + ' ' + prop);
     let second =  ('|' + ' ' +'type:' + ' ' +typeof(prop));
     let addTwoString = first.concat(' ').concat(second); 
-    console.log(addTwoString);
+    console.log(addTwoString); */
    
 
 
     // another way by using concat()
-    let propertyName = 'key:'.concat(' ').concat(prop);
+    /* let propertyName = 'key:'.concat(' ').concat(prop);
     let propertyNameType = '|'.concat(' ').concat('type:').concat(' ').concat(typeof(prop))
     console.log(propertyName, propertyNameType );
-}
+} */
 
 
 
