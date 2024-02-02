@@ -1,6 +1,6 @@
 
 /* --practice task one----- */
-/* question: Count how many times a string has the letter a */
+/* question: Count how many times a string has the letter a */ 
 /* let name = 'aabuaakul';
 let count = name.split('a').length-1;
 console.log(count); */
@@ -25,6 +25,25 @@ for(let i = 0; i < name.length; i++){
 }
 console.log('SmallLetter:', count);
 console.log('CapitalLetter:', count2); */
+
+
+/* ---practice task four---- */
+/* question: Check whether a string contains all the vowels a, e, i, o, u?*/
+
+let str = 'aeiou';
+let cArray = str.split(' ');
+let vowels = 'aeiou';
+for(let checkChar of cArray ){
+    if(vowels.includes(checkChar)){
+        let check = vowels;
+        console.log('yes its vowels');
+    }
+    else{
+        console.log('No its not a vowel');
+    }
+
+}
+
 
 
 
