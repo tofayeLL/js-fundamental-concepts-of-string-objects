@@ -30,7 +30,7 @@ console.log('CapitalLetter:', count2); */
 /* ---practice task four---- */
 /* question: Check whether a string contains all the vowels a, e, i, o, u?*/
 
-let str = 'aeiou';
+/* let str = 'aeiou';
 let cArray = str.split(' ');
 let vowels = 'aeiou';
 for(let checkChar of cArray ){
@@ -42,7 +42,7 @@ for(let checkChar of cArray ){
         console.log('No its not a vowel');
     }
 
-}
+} */
 
 
 

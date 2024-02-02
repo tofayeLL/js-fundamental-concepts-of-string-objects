@@ -1,4 +1,5 @@
 /* ----practice task one---- */
+/* question: Access the golden rod color value in output ? */
 /* const colors = {
     red: "#ff0000",
     green: "#00ff00",
@@ -11,6 +12,7 @@ console.log(color); */
 
 
 /* ----practice task two---- */
+/* question: For this object below add a property named passenger capacity with value 5 ? */
 /* const car = {
     make: "Toyota",
     model: "Corolla",
@@ -21,6 +23,7 @@ console.log(car); */
 
 
 /* ----practice task three---- */
+/* question: Display the physics marks as output ? */
 /* const student = {
     name: "Hamim Sakep",
     id: 5421,
@@ -42,6 +45,7 @@ console.log(access); */
 
 
 /* ---practice task four--- */
+/* question: Count the number of properties ? */
 
 let student = {
     name: 'Ariana Grande',
@@ -62,6 +66,7 @@ console.log(countValues); */
 
 
 /* ---practice task five--- */
+/* question: Loop through an object and print the key-value pairs with their types ? */
 
 /* let myObject = {
 
